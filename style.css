@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    line-height: 1.5rem;
+    color :#333;
+    background-color: #dcdee4;
+}
+
+header {
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header h1 {
+    align-self: center;
+}
+
+.text-red {
+    color: red;
+}
+
+.container {
+    margin-top: 7rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    height: 80%;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#item-form {
+    margin: 10px 0 ;
+}
+
+#item-form .form-control {
+    margin-bottom: 11px;
+}
+
+#item-form .form-control:last-child {
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+#item-form .form-control input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+#item-form .form-control button {
+    color: #fff;
+    background-color: #333;
+    padding: 7px 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.filter {
+    margin: 8px 0;
+}
+
+.filter input {
+    width: 100%;
+    padding: 6px;
+    background-color: #dcdee4;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid #8b8686;
+}
+
+ul {
+    margin: 8px 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 15px 0;
+    padding: 6px 8px;
+    font-weight: 700;
+    border: 1px solid #8b8686;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.btn-link {
+    background-color: #dcdee4;
+    border: none;
+}
+
+.btn-clear {
+    padding: 4px 8px;
+    border: 1px solid #8b8686;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-pen-to-square {
+    color : #333;
+}
+
+.edit-color{
+    color: #8b8686;
+}

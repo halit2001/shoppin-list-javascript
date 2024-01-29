@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <header>
+                <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                <h1>My Shopping List</h1>
+            </header>
+            <form id="item-form">
+                <div class="form-control">
+                    <input type="text" id="item-input" class="form-input" placeholder="Enter Item">
+                </div>
+                <div class="form-control">
+                    <button type="submit" class="btn">
+                        <i class="fa-solid fa-plus"></i> Add Item
+                    </button>
+                </div>
+            </form>
+            <div class="filter">
+                <input type="text" id="filter" class="form-input-filter" placeholder="Filter Items">
+            </div>
+            <ul id="item-list" class="items">
+               <!--  <li>
+                    <p>Apples</p>
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-pen-to-square edit-mode"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    <p>Orange Juice</p>
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-pen-to-square edit-mode"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    <p>Ice cream</p>
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-pen-to-square edit-mode"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    <p>Milk</p>
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-pen-to-square edit-mode"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li> -->
+            </ul>
+            <div id="clear" class="btn-clear">Clear All Items</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/83ed0fdb9c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
